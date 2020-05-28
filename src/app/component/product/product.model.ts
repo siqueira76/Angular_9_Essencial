@@ -1,6 +1,6 @@
 export interface Product {
     // O ? caracterisa o parametro como opcional
     id?: number
-    nane: String
+    name: String
     price: number
 }
