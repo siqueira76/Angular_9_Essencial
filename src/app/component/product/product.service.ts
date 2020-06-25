@@ -35,7 +35,7 @@ export class ProductService {
   }
 
   update(product: Product): Observable<Product> {
-    const url = `${this.http}/${product.id}`
+    const url = `${this.baseUrl}/${product.id}`
     return this.http.put<Product>(url, product)
   }
 
